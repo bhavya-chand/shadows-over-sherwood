@@ -1,0 +1,49 @@
+body{
+    font-family: 'Quantico', sans-serif;
+    background-color: black;
+    color:cornsilk;
+    font-size: 23px;
+    
+}
+h1{
+    text-align: center;
+}
+#disclaimer{
+    padding:20px;
+    
+}
+#disclaimerButtonDiv{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#disclaimerText{
+    vertical-align: top;
+    text-align: center;
+    white-space: pre-wrap;
+}
+#beforeYouPlayText{
+    vertical-align: top;
+    text-align: center;
+    white-space: pre-wrap;
+}
+#disclaimerButton{
+    width:150px;
+    height:40px;
+    
+
+    background-color: black;
+    color:cornsilk;
+    border:solid;
+    box-shadow: 3px 3px ;
+    font-size: 17px;
+    transition: background-color 0.5s,color 0.5s;
+    font-family: 'Quantico',sans-serif;
+    
+
+}
+#disclaimerButton:hover{
+    background-color:cornsilk;
+    color:black;
+    cursor: pointer;
+}
