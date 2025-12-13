@@ -30,5 +30,5 @@ setInterval(trial2,40);
 
 let button=document.getElementById("disclaimerButton");
 button.addEventListener('click',function (){
-    window.open("deviceHub.html","_blank");
+    window.open("logIn.html","_self");
 })

@@ -2,6 +2,7 @@ body{
     background-image: url("sherwoodSign.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: right center;
     margin: 0;
     width:100vw;
     height:100vh;
@@ -18,8 +19,8 @@ body{
     
     
     position:relative;
-    left:150px;
-    top:500px;
+    left:15vw;
+    top:60vh;
     background-color: black;
     color:rgb(235,224,215);
     border:solid;

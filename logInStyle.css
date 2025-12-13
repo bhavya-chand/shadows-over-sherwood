@@ -1,0 +1,100 @@
+#panel{
+    background-color: black;
+    height:45vh;
+    width:30vw;
+    position:relative;
+    top:25vh;
+    left:35vw;
+    border-radius: 3px;
+    border: solid cornsilk;
+    display: flex;
+    flex-direction:column;
+    font-family: 'Quantico', sans-serif;
+    align-items: center;
+    /*justify-content: space-around;*/
+    gap:2.5vh;
+    /*45,30*/
+    
+}
+body{
+    background-color: black;
+}
+#text{
+    color:cornsilk;
+    font-size: 2.5vw;
+}
+#text2{
+    color:cornsilk;
+    font-size: 2vw;
+    
+
+
+}
+#text2:hover{
+    cursor:pointer;
+}
+.label{
+    color:cornsilk;
+    font-size: 2vw;
+}
+#logInButton{
+    width:13vw;
+    height:6vh;
+    
+
+    background-color: black;
+    color:cornsilk;
+    border:solid;
+    box-shadow: 0.3vw 0.3vh ;
+    font-size: 3vh;
+    transition: background-color 0.5s,color 0.5s;
+    font-family: 'Quantico',sans-serif;
+    
+
+}
+#logInButton:hover{
+    background-color:cornsilk;
+    color:black;
+    cursor: pointer;
+
+}
+input{
+    background-color: cornsilk;
+}
+#display{
+    color:cornsilk;
+    text-align: center;
+    font-family: 'Quantico',sans-serif;
+
+}
+
+#signUp{
+    display:none;
+}
+#signUpButton{
+    width:13vw;
+    height:6vh;
+    
+
+    background-color: black;
+    color:cornsilk;
+    border:solid;
+    box-shadow: 0.3vw 0.3vh ;
+    font-size: 3vh;
+    transition: background-color 0.5s,color 0.5s;
+    font-family: 'Quantico',sans-serif;
+    display:none;
+
+
+}
+#signUpButton:hover{
+    background-color:cornsilk;
+    color:black;
+    cursor: pointer;
+
+
+}
+input{
+    width:15vw;
+    height:2.5vh;
+}
