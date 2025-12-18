@@ -1,0 +1,24 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "an interactive web based mystery game. click if u r an hj fan",
+  "homepage": "https://github.com/bhavya-chand/shadows-over-sherwood#readme",
+  "bugs": {
+    "url": "https://github.com/bhavya-chand/shadows-over-sherwood/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavya-chand/shadows-over-sherwood.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "disclaimerScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}
